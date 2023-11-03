@@ -1,4 +1,4 @@
-# ESP32 WiFi AccessPoint Control Panel
+# ESP32 WirelessControl
 
 This project demonstrates a simple web-based control panel using ESP32 WiFi module. The control panel allows you to turn on and off GPIO5 remotely through a web browser.
 
