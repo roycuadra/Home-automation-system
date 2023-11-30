@@ -1,4 +1,4 @@
-# IOT Home Automation Relay Control using ESP32 or ESP8266.
+# WirelessRelay Wizard
 
 - This project demonstrates a simple web-based control panel using ESP32 or ESP8266. 
 - The control panel allows you to turn on and off GPIO12 remotely through a web browser.
