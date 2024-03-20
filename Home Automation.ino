@@ -8,10 +8,10 @@
 */
 
 //remove or comment this when using esp8266
-#include <WiFi.h>
+//#include <WiFi.h>
 
 //Uncomment this when using esp8266 
-// #include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h>
 
 const char* ssid = "IoT Home Automation";
 const char* password = "admin12345";
@@ -72,7 +72,7 @@ void loop() {
             client.println("<!DOCTYPE html><html>");
             client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
             client.println("<link rel=\"icon\" href=\"data:,\">");
-            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;background: rgb(2,0,36); background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}");
+            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;background: rgb(2,0,36); background-color:black;}");
             client.println(".button { background-color:blue; border: none;border-radius:30px; color: white; padding: 16px 40px;");
             client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
             client.println("body{ padding-top:10px; padding-bottom:10px; border-radius: 20px; border: 1px solid rgb(255, 255, 255); border-style: none; box-shadow: 0 0 30px 0 rgb(71, 70, 70); margin-top: 100px; max-width: 300px ; margin-left: auto; margin-right: auto; background-color: white;  }");
