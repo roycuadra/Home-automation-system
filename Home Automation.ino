@@ -22,7 +22,7 @@ String output5State = "off";
 
 const int output5 = 2; // Connect To D4 PIN
 
-const int buzzerPin = 13;
+const int buzzerPin = 5; // Connect To D1 PIN for Buzzer
 
 void setup() {
   Serial.begin(115200);
