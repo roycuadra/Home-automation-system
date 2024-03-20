@@ -20,9 +20,9 @@ WiFiServer server(80);
 String header;
 String output5State = "off";
 
-const int output5 = 12; // For ESP32: GPIO 12, For ESP8266: D6
+const int output5 = 2; // Connect To D4 PIN
 
-const int buzzerPin = 13; //for ESP32: GPIO 13, for esp8266 D6 pin to which the buzzer is connected
+const int buzzerPin = 13;
 
 void setup() {
   Serial.begin(115200);
