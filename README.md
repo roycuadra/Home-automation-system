@@ -8,5 +8,5 @@ Check this out [Video Demonstration](https://www.dropbox.com/scl/fi/2l01fe7jwbvo
 
 ## How It Works
 
-The ESP32 or ESP8266 sets up an Access Point (AP) with the specified SSID and password. It hosts a web server that serves a simple HTML page with ON and OFF buttons. When you click the buttons, corresponding HTTP requests are sent to the ESP32 or ESP8266, and it toggles the state of GPIO12 accordingly.
+The ESP32 or ESP8266 sets up an Access Point (AP) with the specified SSID and password. It hosts a web server that serves a simple HTML page with ON and OFF buttons. When you click the buttons, corresponding HTTP requests are sent to the ESP32 or ESP8266, and it toggles the state of GPIO12 accordingly..
 
