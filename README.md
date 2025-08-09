@@ -41,7 +41,7 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 
 > 📷 **Schematic Diagram Screenshot**
 
-![Schematic Diagram](images/schematic.png)
+![Schematic Diagram](schematic.png)
 
 *Make sure to replace the placeholder above with your actual image path.*
 
