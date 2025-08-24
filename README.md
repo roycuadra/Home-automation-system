@@ -20,8 +20,6 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 - A simple **web server** runs on port 80.
 - The server displays an HTML interface with **ON/OFF buttons**.
 - Clicking a button sends a **GET request** to toggle GPIO12 (D4 on ESP8266).
-- A **buzzer** gives audio feedback every time the button is pressed.
-
 ---
 
 ## 🔌 Wiring Guide
@@ -29,9 +27,8 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 | Component         | ESP8266 Pin | GPIO | Description               |
 |------------------|-------------|------|---------------------------|
 | Relay IN         | D4          | 2    | Controls device ON/OFF    |
-| Buzzer +         | D1          | 5    | Buzzer feedback           |
 | Relay VCC        | 5V          | —    | Power supply              |
-| Buzzer – / Relay GND | GND     | —    | Common ground             |
+| Relay GND        | GND         | —    | Common ground             |
 
 ⚠️ Use the **NO (Normally Open)** terminal of the relay for correct operation.
 
@@ -51,7 +48,6 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 
 - ESP8266 NodeMCU or ESP32
 - 1× Relay Module
-- 1× Active Buzzer Module
 - Jumper wires, USB cable
 
 ### 🔧 Setup Steps
@@ -61,8 +57,7 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
    - Use the correct board (ESP8266 or ESP32).
    - Install the required libraries.
 3. **Connect to the Wi-Fi Access Point** created by the device:
-   - **SSID:** `IoT Home Automation`
-   - **Password:** `admin12345`
+   - **SSID:** `HOME AUTOMATION_AP`
 4. Open your browser and go to `192.168.4.1`.
 5. Use the web interface to toggle the relay.
 
