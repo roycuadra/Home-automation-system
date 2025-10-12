@@ -1,20 +1,20 @@
 # ⚡ WirelessRelay Wizard
 
-## 🎬 Video Demonstration
+## Video Demonstration
 
 Check out the live demo:  
-👉 [Video Demonstration](https://vt.tiktok.com/ZSSgSRsGT/) 
+[Video Demonstration](https://vt.tiktok.com/ZSSgSRsGT/) 
 
 ---
 
-## 📖 Description
+## Description
 
 This project demonstrates a **simple web-based control panel** using an **ESP8266 or ESP32**.  
 It lets you wirelessly turn a **relay module ON or OFF** using a browser, no internet needed!
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 - The ESP8266/ESP32 creates a **Wi-Fi Access Point** with a custom SSID and password.
 - A simple **web server** runs on port 80.
@@ -34,23 +34,23 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 
 ---
 
-## 🖼️ Schematic Diagram
+## Schematic Diagram
 
-> 📷 **Schematic Diagram Screenshot**
+> **Schematic Diagram Screenshot**
 
 ![Schematic Diagram](schematic.png)
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
-### ✅ Requirements
+### Requirements
 
 - ESP8266 NodeMCU or ESP32
 - 1× Relay Module
 - Jumper wires, USB cable
 
-### 🔧 Setup Steps
+### Setup Steps
 
 1. **Connect the components** as per the schematic above.
 2. **Upload the Arduino code** using the Arduino IDE.
@@ -63,7 +63,7 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
@@ -71,6 +71,4 @@ See the [LICENSE](LICENSE) file for details.
 ---
 
 ## 🙋‍♂️ Author
-
 Created by **Roy Cuadra**  
-📅 Date: *05/11/2023*
