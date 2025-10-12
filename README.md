@@ -1,4 +1,4 @@
-# ⚡ WirelessRelay Wizard
+# Simple Home Automation System
 
 ## Video Demonstration
 
