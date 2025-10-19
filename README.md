@@ -29,7 +29,7 @@ This project is for educational and experimental purposes only.
 - Do not connect high-voltage mains power unless you are fully trained and aware of electrical safety.
 - Improper use of relay modules or incorrect wiring can cause fire, electric shock, or damage to devices.
 - Always use low-voltage testing before connecting mains appliances, and follow local safety regulations.
-- The author is not responsible for any damage, injury, or loss resulting from following this guide.
+- The author is not responsible for any damage, injury, or loss caused by using this project. Always handle electronics safely and operate the device in a controlled environment.. 
 
 ---
 
