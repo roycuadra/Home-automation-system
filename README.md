@@ -22,6 +22,17 @@ It lets you wirelessly turn a **relay module ON or OFF** using a browser, no int
 - Clicking a button sends a **GET request** to toggle GPIO12 (D4 on ESP8266).
 ---
 
+# Disclaimer ⚠️
+
+This project is for educational and experimental purposes only.
+
+- Do not connect high-voltage mains power unless you are fully trained and aware of electrical safety.
+- Improper use of relay modules or incorrect wiring can cause fire, electric shock, or damage to devices.
+- Always use low-voltage testing before connecting mains appliances, and follow local safety regulations.
+- The author is not responsible for any damage, injury, or loss resulting from following this guide.
+
+---
+
 ## 🔌 Wiring Guide
 
 | Component         | ESP8266 Pin | GPIO | Description               |
